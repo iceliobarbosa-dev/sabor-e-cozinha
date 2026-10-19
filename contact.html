@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contato — Sabor & Cozinha</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand"><a href="index.html">Sabor & Cozinha</a></h1>
+      <nav>
+        <a href="index.html">Início</a>
+        <a href="recipes.html">Receitas</a>
+        <a href="about.html">Sobre</a>
+        <a href="contact.html">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Contato</h2>
+    <p>Quer falar comigo? Use o email abaixo ou envie uma mensagem rápida.</p>
+
+    <form action="mailto:seu-email@exemplo.com" method="post" enctype="text/plain">
+      <label>Nome<br /><input type="text" name="Nome" required /></label><br /><br />
+      <label>Email<br /><input type="email" name="Email" required /></label><br /><br />
+      <label>Mensagem<br /><textarea name="Mensagem" rows="6" required></textarea></label><br /><br />
+      <button class="btn" type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year-5"></span> Sabor & Cozinha</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

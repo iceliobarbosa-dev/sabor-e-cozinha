@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Receitas — Sabor & Cozinha</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand"><a href="index.html">Sabor & Cozinha</a></h1>
+      <nav>
+        <a href="index.html">Início</a>
+        <a href="recipes.html">Receitas</a>
+        <a href="about.html">Sobre</a>
+        <a href="contact.html">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Receitas</h2>
+    <p class="muted">Filtre por categoria, tempo e dificuldade.</p>
+
+    <div class="grid">
+      <!-- Cada card pode linkar para recipe.html?id=X -->
+      <article class="card">
+        <img src="images/pasta.svg" alt="Macarrão" />
+        <h4><a href="recipe.html?id=1">Macarrão ao molho cremoso</a></h4>
+        <p>Tempo: 20 min • Fácil</p>
+      </article>
+
+      <article class="card">
+        <img src="images/salad.svg" alt="Salada" />
+        <h4><a href="recipe.html?id=2">Salada de quinoa com legumes</a></h4>
+        <p>Tempo: 25 min • Fácil</p>
+      </article>
+
+      <article class="card">
+        <img src="images/soup.svg" alt="Sopa" />
+        <h4><a href="recipe.html?id=3">Sopa rústica de legumes</a></h4>
+        <p>Tempo: 40 min • Médio</p>
+      </article>
+
+      <!-- Adicione mais cards conforme quiser -->
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year-2"></span> Sabor & Cozinha</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
